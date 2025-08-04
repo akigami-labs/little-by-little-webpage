@@ -9,11 +9,11 @@ const FinalCTA = () => {
           Ready to Make Gentle Progress?
         </h2>
         <p className="text-xl text-secondary-text mb-12">
-          Stop fighting with your to-do list. Join our waitlist to be the first to know when we launch.
+          Stop fighting your to-do list. Join the waitlist for the first tool designed for compassionate productivity.
         </p>
         
         <EmailSignup 
-          placeholder="Enter your email address"
+          placeholder="Enter your email for early access"
           buttonText="Join the Waitlist"
           className="max-w-md mx-auto"
         />

@@ -19,7 +19,8 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-primary-text mb-4">Product</h3>
             <ul className="space-y-2">
-              <li><a href="#features" className="text-secondary-text hover:text-primary-text transition-colors">Features</a></li>
+              <li><button onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })} className="text-secondary-text hover:text-primary-text transition-colors">How It Works</button></li>
+              <li><button onClick={() => document.getElementById('who-its-for')?.scrollIntoView({ behavior: 'smooth' })} className="text-secondary-text hover:text-primary-text transition-colors">Who It's For</button></li>
               <li><a href="#science" className="text-secondary-text hover:text-primary-text transition-colors">The Science</a></li>
             </ul>
           </div>

@@ -7,10 +7,10 @@ const Problem = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-primary-text mb-6 leading-tight">
-              It's Not Laziness. It's Paralysis.
+              When Your To-Do List Is the Burnout.
             </h2>
             <p className="text-lg text-secondary-text leading-relaxed">
-              When a task feels too big, our brains can freeze. This "task paralysis" is a real cycle of anxiety and avoidance, especially for those with executive function challenges. We built a tool that understands this and helps you gently find a way forward.
+              The modern workplace is in a crisis, with 51% of employees suffering from burnout. For students and professionals alike, this leads to "task paralysis"—a cycle of anxiety and avoidance. We built a tool grounded in behavioral science to help you gently find a way forward.
             </p>
           </div>
           

@@ -14,10 +14,16 @@ function App() {
       <Navigation />
       <Hero />
       <Problem />
-      <HowItWorks />
-      <WhoItsFor />
+      <div id="how-it-works">
+        <HowItWorks />
+      </div>
+      <div id="who-its-for">
+        <WhoItsFor />
+      </div>
       <Science />
-      <FinalCTA />
+      <div id="final-cta">
+        <FinalCTA />
+      </div>
       <Footer />
     </div>
   );

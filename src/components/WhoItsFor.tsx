@@ -6,20 +6,20 @@ const WhoItsFor = () => {
     {
       icon: BookOpen,
       title: "The Student",
-      description: "For when academic perfectionism makes it impossible to start that big essay or research project.",
+      description: "For the 77% of students whose academic performance is impacted by mental or emotional difficulties.",
       color: "text-primary-accent"
     },
     {
-      icon: PenSquare,
-      title: "The Creative Professional",
-      description: "For overcoming the \"blank page\" anxiety and the fear of not meeting subjective client expectations.",
-      color: "text-gentle-purple"
+      icon: Briefcase,
+      title: "The Overwhelmed Achiever",
+      description: "For high-performing managers and freelancers who feel \"stuck.\" Reframe projects as small wins to prevent burnout.",
+      color: "text-growth-green"
     },
     {
-      icon: Briefcase,
-      title: "The Overwhelmed Manager",
-      description: "For cutting through the noise of constant meetings and decision fatigue to focus on what truly matters.",
-      color: "text-growth-green"
+      icon: Brain,
+      title: "The Neurodivergent Mind",
+      description: "For the 15-20% of the population that is neurodivergent. An external scaffold to support executive functions.",
+      color: "text-gentle-purple"
     }
   ];
 
@@ -28,7 +28,7 @@ const WhoItsFor = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary-text mb-4">
-            A Kinder Tool for...
+            Built for the Overwhelmed, Not the Already-Productive
           </h2>
         </div>
         

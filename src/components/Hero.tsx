@@ -18,14 +18,17 @@ const Hero = () => {
               placeholder="Enter your email address"
               buttonText="Get Early Access"
               className="mb-8"
+          <p className="text-lg text-primary-accent font-medium mb-4">
+            AI task manager for task paralysis
+          </p>
             />
             
             <p className="text-sm text-muted-gray">
-              Join 2,847 people already on the waitlist
-            </p>
+          <p className="text-xl text-secondary-text mb-8 leading-relaxed">
+            A 'gentle productivity' app for the millions struggling with executive dysfunction and burnout. We use mood-aware AI to break down overwhelming tasks into small, manageable steps.
           </div>
-          
-          <div className="relative">
+            placeholder="Enter your email for early access"
+            buttonText="Join Waitlist"
             <img 
               src="/composite-image.png" 
               alt="Little by Little app interface showing before and after AI planning" 

@@ -12,13 +12,13 @@ const HowItWorks = () => {
     {
       icon: Brain,
       title: "Get Your AI-Powered Plan",
-      description: "Receive either a single, tiny first step (Focus Mode) or a full action plan (Plan Mode).",
+      description: "Receive a single, tiny first step in Focus Mode, or a full action plan when you're ready.",
       color: "text-gentle-purple"
     },
     {
       icon: TrendingUp,
       title: "Make Gentle Progress",
-      description: "Build momentum by completing small, achievable tasks that work with your brain, not against it.",
+      description: "Build momentum with small, achievable tasks that work with your brain, not against it.",
       color: "text-growth-green"
     }
   ];
@@ -28,7 +28,7 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary-text mb-4">
-            Your AI Coach That Adapts to You
+            An Empathetic AI Coach That Adapts to You
           </h2>
         </div>
         
