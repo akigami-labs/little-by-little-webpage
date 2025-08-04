@@ -28,7 +28,7 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary-text mb-4">
-            An Empathetic AI Coach That Adapts to You
+            An Intelligent System for Gentle Progress
           </h2>
         </div>
         
