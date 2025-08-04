@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, PenSquare, Briefcase } from 'lucide-react';
+import { BookOpen, PenSquare, Briefcase, Brain } from 'lucide-react';
 
 const WhoItsFor = () => {
   const personas = [
