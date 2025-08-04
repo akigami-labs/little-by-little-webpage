@@ -1,12 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes targeting the main branch
   push:
     branches:
-      - main 
+      - main
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -14,6 +12,9 @@ permissions:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository
@@ -29,7 +30,6 @@ jobs:
         run: npm install
 
       - name: Build your site
-        # This uses the build script from your package.json
         run: npm run build
 
       - name: Upload the build artifact
